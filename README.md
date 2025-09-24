@@ -16,11 +16,11 @@ A Python-based log classification system that combines Regex, Sentence Transform
 ## Architecture
 
 project-root/
-│
-├── training/            # Code for training models (Regex, Sentence Transformer + Logistic Regression)
-├── models/              # Saved models (embeddings, logistic regression models)
-├── resources/           # Test CSVs, output files, images, and other resources
-└── server.py            # FastAPI server
+- │
+- ├── training/            # Code for training models (Regex, Sentence Transformer + Logistic Regression)
+- ├── models/              # Saved models (embeddings, logistic regression models)
+- ├── resources/           # Test CSVs, output files, images, and other resources
+- └── server.py            # FastAPI server
 
 ## Example
 
