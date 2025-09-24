@@ -26,15 +26,15 @@ project-root/
 
 ### Input CSV:
 
-source	log_message
-app1	User login failed due to 401
-app2	Disk space is running low
+source	log_message  
+app1	User login failed due to 401  
+app2	Disk space is running low  
 
 ### Output CSV:
 
-source	log_message	target_label
-app1	User login failed due to 401	Security Alert
-app2	Disk space is running low	System Notification
+source	log_message	target_label  
+app1	User login failed due to 401	Security Alert  
+app2	Disk space is running low	System Notification  
 
 ## Author
 Yash Taneja
